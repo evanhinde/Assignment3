@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pizza Maker</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <!-- divs for different html elements given ids-->
+    <h1>The Pizza Maker</h1>
+    <p id="studentCreds"></p>
+    <div id="baseDiv">
+        <label for="baseSelect">Select Base</label>
+        <select id="baseSelect">
+            <option value="White">White</option>
+            <option value="Whole Grain">Whole Grain</option>
+            <option value="Veggie">Veggie</option>
+        </select>
+    </div>
+    <div id="sauceDiv">
+        <label for="sauceSelect">Select Sauce</label>
+        <select id="sauceSelect">
+            <option value="Tomato">Tomato</option>
+            <option value="White">White</option>
+            <option value="Spicy">Spicy</option>
+        </select>
+    </div>
+    <div id="extraCheeseDiv">
+        <label for="extraCheeseCheckBox">Extra Cheese?</label>
+        <input type="checkbox" id="extraCheeseCheckBox">
+    </div>
+    <div id="meatsDiv">
+        <label for="meatsDiv">Select Meats</label>
+        <label for="pepperoniCheckBox">
+            <input type="checkbox" id="pepperoniCheckBox" name="meats" value="Pepperoni"> Pepperoni
+        </label>
+        <label for="sausageCheckBox">
+            <input type="checkbox" id="sausageCheckBox" name="meats" value="Sausage"> Sausage
+        </label>
+        <label for="hamCheckBox">
+            <input type="checkbox" id="hamCheckBox" name="meats" value="Ham"> Ham
+        </label>
+    </div>
+    <div id="veggiesDiv">
+        <label for="veggiesDiv">Select Veggies</label>
+        <label for="greenPepperCheckBox">
+            <input type="checkbox" id="greenPepperCheckBox" name="veggies" value="Green Pepper"> Green Pepper
+        </label>
+        <label for="oliveCheckBox">
+            <input type="checkbox" id="oliveCheckBox" name="veggies" value="Olive"> Olive
+        </label>
+        <label for="mushroomCheckBox">
+            <input type="checkbox" id="mushroomCheckBox" name="veggies" value="Mushroom"> Mushroom
+        </label>
+    </div>
+    <button id="orderButton">Order</button>
+    <p id="pizzaDescription"></p>
+</body>
+</html>

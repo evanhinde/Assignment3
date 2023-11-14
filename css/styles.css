@@ -1,0 +1,69 @@
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#studentCreds {
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#baseDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+#baseDiv label {
+    color: red;
+}
+#baseDiv select {
+    width: 200px;
+}
+#sauceDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+#sauceDiv label {
+    color: red;
+}
+#sauceDiv select {
+    width: 200px;
+}
+#extraCheeseDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+#extraCheeseDiv label {
+    color: red;
+}
+#meatsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+#veggiesDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+#orderButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
